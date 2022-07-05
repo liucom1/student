@@ -1,0 +1,16 @@
+body{
+    background-color: aliceblue;
+}
+.el-row{
+    height: 100vh;
+}
+.box{
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.title{
+    text-align: center;
+}

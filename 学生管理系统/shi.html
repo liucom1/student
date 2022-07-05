@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/element.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="nav-list-box">
+            <h1 @click="goHome">xxx后台管理系统</h1>
+            <el-menu router :default-active="$route.path" class="el-menu-vertical" @open="handleOpen"
+                @close="handleClose" :collapse="isCollapse" background-color="#545c64" text-color="#fff"
+                active-text-color="#ffd04b">
+                <el-menu-item index="/daohang1">
+                    <i class="el-icon-s-management"></i>
+                    <span slot="title">导航1</span>
+                </el-menu-item>
+                <el-menu-item index="/daohang2">
+                    <i class="el-icon-menu"></i>
+                    <span slot="title">导航2</span>
+                </el-menu-item>
+                <el-menu-item index="/daohang3">
+                    <i class="el-icon-document"></i>
+                    <span slot="title">导航3</span>
+                </el-menu-item>
+                <el-menu-item index="/daohang4">
+                    <i class="el-icon-setting"></i>
+                    <span slot="title">导航4</span>
+                </el-menu-item>
+            </el-menu>
+        </div>
+        参考：
+    </div>
+    <script src="js/vue.js"></script>
+    <script src="js/element.js"></script>
+    <script src="js/axios.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

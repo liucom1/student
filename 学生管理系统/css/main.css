@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+.el-header{
+    color: #fff;
+    line-height: 60px;
+}
+.el-aside{
+    background-color: #333;
+    height: calc(100vh - 60px);
+}
+.el-menu{
+    border: none;
+}
